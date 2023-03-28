@@ -1,6 +1,4 @@
-## SISTEMA DE CONVERSIONES IMPROVISADO
-## Inspirado en Pexi y en BlondFerretRabbit System - [aZafireCatWhoWasHere]
-## BY: aZafireCatWhoWasHere
+
 
 print("Sistema de conversión: Opaleye")
 print("Creado y programado por: aZafireCatWhoWasHere")
@@ -447,6 +445,3 @@ else:
 
 #RESULTADO
 print("El resultado de la conversión es: {} ".format(resultado))
-#AGRADECIMIENTOS
-print("¡Gracias por usar el sistema Opaleye!")
-print("@aZafireCatWhoWasHere espera haber ayudado")
