@@ -1,9 +1,3 @@
-## SISTEMA IMPROVISADO, LECTOR DE SEGUNDOS A X TIEMPO
-## Sistema propio
-## BY: @BlondFerretRabbit
-
-print("Sistema Olimpia per Marie")
-print("Lector de Segundos a unidad de Tiempo")
 
 segundos = int(input("Ingresa la cantidad de segundos: "))
 
