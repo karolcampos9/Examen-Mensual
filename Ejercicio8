@@ -1,0 +1,24 @@
+## SISTEMA PARA SABER DE QUE MULTIPLO ES EL NUMERO
+## Hecho por @aZafireCatWhoWasHere
+
+print("Identificador de múltiplos MeiHoF")
+print("MeiHoF es un sistema que te ayudara a definir si tú número es múltiplo de 3 o 5")
+print("""
+        MeiHoF te permite saber lo siguiente:
+        1) Si el número es múltiplo de 5, más no de 3
+        2) Si el número es múltiplo de 3, más no de 5
+        3) Si el número es múltiplo de 3 y 5
+        4) Si el número no es múltiplo ni de 3 ni de 5
+    """)
+##Pedir al usuario el número del que quiere saber el múltiplo
+print("Iniciemos con el número")
+num = int(input("Introduce un número: "))
+
+if num % 3 == 0 and num % 5 == 0:
+    print("El número es múltiplo de 3 y 5")
+elif num % 3 == 0:
+    print("El número es múltiplo de 3 pero no de 5")
+elif num % 5 == 0:
+    print("El número es múltiplo de 5 pero no de 3")
+else:
+    print("El número no es múltiplo de 3 ni de 5")
