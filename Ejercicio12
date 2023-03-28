@@ -1,57 +1,37 @@
+print("Hola, por favor siga las instrucciones")
+n1 = float(input("Inserte tu primer número: ") )
+n2 = float(input("Insertetu segundo número: ") )
 
-   "source": [
-    "print(\"Hola, por favor siga las instrucciones\")\n",
-    "n1 = float(input(\"Inserte tu primer número: \") )\n",
-    "n2 = float(input(\"Insertetu segundo número: \") )\n",
-    "\n",
-    "opcion = 0\n",
-    "while True:\n",
-    "    print(\"\"\"\n",
-    "    Ahora, dime ¿qué deseas hacer?\n",
-    "    \n",
-    "    1) Suma\n",
-    "    2) Resta\n",
-    "    3) Multiplicación\n",
-    "    4) Dividisión\n",
-    "    5) Cambiar los números elegidos\n",
-    "    6) Apagar calculadora\n",
-    "    \"\"\")\n",
-    "    opcion = int(input(\"Elige una opción: \") )     \n",
-    "\n",
-    "    if opcion == 1:\n",
-    "        print(\" \")\n",
-    "        print(\"RESULTADO: La suma de\",n1,\"+\",n2,\"es igual a\",n1+n2)\n",
-    "    elif opcion == 2:\n",
-    "        print(\" \")\n",
-    "        print(\"RESULTADO: La resta de\",n1,\"-\",n2,\"es igual a\",n1-n2)\n",
-    "    elif opcion == 3:\n",
-    "        print(\" \")\n",
-    "        print(\"RESULTADO: El producto de\",n1,\"*\",n2,\"es igual a\",n1*n2)\n",
-    "    elif opcion == 4:\n",
-    "        print(\" \")\n",
-    "        print(\"RESULTADO: El producto de\",n1,\"/\",n2,\"es igual a\",n1/n2)\n",
-    "    elif opcion == 5:\n",
-    "        n1 = float(input(\"Introduce tu primer número: \") )\n",
-    "        n2 = float(input(\"Introduce tu segundo número: \") )\n",
-    "    elif opcion == 6:\n",
-    "        break\n",
-    "    else:\n",
-    "        print(\"Opción incorrecta\")\n"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "base",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "name": "python",
-   "version": "3.9.13"
-  },
-  "orig_nbformat": 4
- },
- "nbformat": 4,
- "nbformat_minor": 2
-}
+opcion = 0
+while True:
+    print("""
+    Ahora, dime ¿qué deseas hacer?
+    
+    1) Suma
+    2) Resta
+    3) Multiplicación
+    4) Dividisión
+    5) Cambiar los números elegidos
+    6) Apagar calculadora
+    """)
+    opcion = int(input("Elige una opción: ") )     
+
+    if opcion == 1:
+        print(" ")
+        print("RESULTADO: La suma de",n1,"+",n2,"es igual a",n1+n2)
+    elif opcion == 2:
+        print(" ")
+        print("RESULTADO: La resta de",n1,"-",n2,"es igual a",n1-n2)
+    elif opcion == 3:
+        print(" ")
+        print("RESULTADO: El producto de",n1,"*",n2,"es igual a",n1*n2)
+    elif opcion == 4:
+        print(" ")
+        print("RESULTADO: El producto de",n1,"/",n2,"es igual a",n1/n2)
+    elif opcion == 5:
+        n1 = float(input("Introduce tu primer número: ") )
+        n2 = float(input("Introduce tu segundo número: ") )
+    elif opcion == 6:
+        break
+    else:
+        print("Opción incorrecta")
