@@ -1,8 +1,7 @@
 
-print("Identificador de múltiplos MeiHoF")
-print("MeiHoF es un sistema que te ayudara a definir si tú número es múltiplo de 3 o 5")
+
 print("""
-        MeiHoF te permite saber lo siguiente:
+        El programa te permite saber lo siguiente:
         1) Si el número es múltiplo de 5, más no de 3
         2) Si el número es múltiplo de 3, más no de 5
         3) Si el número es múltiplo de 3 y 5
