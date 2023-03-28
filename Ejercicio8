@@ -1,129 +1,22 @@
-print("---¿De que número es multiplo?---")
+
+print("Identificador de múltiplos MeiHoF")
+print("MeiHoF es un sistema que te ayudara a definir si tú número es múltiplo de 3 o 5")
+print("""
+        MeiHoF te permite saber lo siguiente:
+        1) Si el número es múltiplo de 5, más no de 3
+        2) Si el número es múltiplo de 3, más no de 5
+        3) Si el número es múltiplo de 3 y 5
+        4) Si el número no es múltiplo ni de 3 ni de 5
+    """)
+##Pedir al usuario el número del que quiere saber el múltiplo
+print("Iniciemos con el número")
 num = int(input("Introduce un número: "))
 
-#La division de cualquier numero entre 2, va a devolver los decimales unicamente
-#Estos decimales los va a igualar a 0, ya que si los decimales son 0, es multiplo de dicho numeor
-if num % 2 == 0:
-    print(num, "es múltiplo de 2.")
+if num % 3 == 0 and num % 5 == 0:
+    print("El número es múltiplo de 3 y 5")
+elif num % 3 == 0:
+    print("El número es múltiplo de 3 pero no de 5")
+elif num % 5 == 0:
+    print("El número es múltiplo de 5 pero no de 3")
 else:
-    0
-
-if num % 3 == 0:
-    print(num, "es múltiplo de 3.")
-else:
-    0
-
-if num % 5 == 0:
-    print(num, "es múltiplo de 5.")
-else:
-    0
-
-if num % 7 == 0:
-    print(num, "es múltiplo de 7.")
-else:
-    0
-
-if num % 11 == 0:
-    print(num, "es múltiplo de 11.")
-else:
-    0
-
-if num % 13 == 0:
-    print(num, "es múltiplo de 13.")
-else:
-    0
-
-if num % 17 == 0:
-    print(num, "es múltiplo de 17.")
-else:
-    0
-
-if num % 19 == 0:
-    print(num, "es múltiplo de 19.")
-else:
-    0
-
-if num % 23 == 0:
-    print(num, "es múltiplo de 23.")
-else:
-    0
-
-if num % 29 == 0:
-    print(num, "es múltiplo de 29.")
-else:
-    0
-
-if num % 31 == 0:
-    print(num, "es múltiplo de 31.")
-else:
-    0
-
-if num % 37 == 0:
-    print(num, "es múltiplo de 37.")
-else:
-    0
-
-if num % 41 == 0:
-    print(num, "es múltiplo de 41.")
-else:
-    0
-
-if num % 43 == 0:
-    print(num, "es múltiplo de 43.")
-else:
-    0
-
-if num % 47 == 0:
-    print(num, "es múltiplo de 47.")
-else:
-    0
-
-if num % 53 == 0:
-    print(num, "es múltiplo de 53.")
-else:
-    0
-
-if num % 59 == 0:
-    print(num, "es múltiplo de 59.")
-else:
-    0
-
-if num % 61 == 0:
-    print(num, "es múltiplo de 61.")
-else:
-    0
-
-if num % 67 == 0:
-    print(num, "es múltiplo de 67.")
-else:
-    0
-
-if num % 71 == 0:
-    print(num, "es múltiplo de 71.")
-else:
-    0
-
-if num % 73 == 0:
-    print(num, "es múltiplo de 73.")
-else:
-    0
-
-if num % 79 == 0:
-    print(num, "es múltiplo de 79.")
-else:
-    0
-
-if num % 83 == 0:
-    print(num, "es múltiplo de 83.")
-else:
-    0
-
-if num % 89 == 0:
-    print(num, "es múltiplo de 89.")
-else:
-    0
-
-if num % 97 == 0:
-    print(num, "es múltiplo de 97.")
-else:
-    0
+    print("El número no es múltiplo de 3 ni de 5")
